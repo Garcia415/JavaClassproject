@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E6BE8A;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    color: #5C4033;
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    border-radius: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+ul li:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a{
+    text-decoration: none;
+    color: #5C4033;
+}
